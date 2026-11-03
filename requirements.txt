@@ -1,0 +1,39 @@
+# Direct dependencies captured from the local Python 3.12 environment.
+# This is not a full transitive lockfile or a verified clean-install snapshot.
+# Windows desktop application; install in a dedicated virtual environment.
+
+# UI and configuration
+PySide6==6.12.0
+python-dotenv==1.2.4
+
+# Agent, providers and persistent semantic memory
+langchain==1.4.6
+langchain-core==1.6.11
+langchain-classic==1.0.8
+langchain-community==0.4.2
+langchain-experimental==0.4.2
+langchain-openai==1.7.2
+langchain-google-genai==4.4.2
+langchain-chroma==1.1.0
+langchain-huggingface==1.2.3
+chromadb==1.5.9
+sentence-transformers==6.1.0
+
+# Windows automation, audio control and document/image reading
+pywin32==312; sys_platform == "win32"
+WMI==1.5.1; sys_platform == "win32"
+pywinauto==0.6.9; sys_platform == "win32"
+pycaw==20260927; sys_platform == "win32"
+comtypes==1.4.17; sys_platform == "win32"
+psutil==7.2.2
+pillow==12.1.1
+pypdf==6.21.4
+
+# Web/research tools loaded dynamically by LangChain
+ddgs==9.16.0
+wikipedia==1.4.0
+arxiv==4.0.2
+youtube-search==2.2.0
+
+# Optional voice feature: pip install -r requirements-voice.txt
+# Optional Anthropic provider: pip install langchain-anthropic

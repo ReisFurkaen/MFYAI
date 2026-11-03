@@ -1,0 +1,9 @@
+# Install requirements.txt first. Models are downloaded separately.
+# Versions captured from the existing local environment.
+numpy==2.4.6
+torch==2.14.1
+scipy==1.15.3
+sounddevice==0.5.5
+faster-whisper==1.2.1
+silero-vad==6.2.3
+pocket-tts-turkish==0.1.0

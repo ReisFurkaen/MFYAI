@@ -1,0 +1,33 @@
+
+/mfy_chroma_db/
+/calisma_alani/
+/.venv/
+.env
+.env.*
+!.env.example
+
+# Python / development tools
+__pycache__/
+*.py[cod]
+/.idea/
+/.vscode/
+/.pytest_cache/
+/.ruff_cache/
+/build/
+/dist/
+*.egg-info/
+
+# Personal runtime state (never publish)
+/chat_sessions.json
+/profil.json
+/ai_settings.json
+/hatirlaticilar.json
+/audit_log.jsonl*
+/*.json.tmp
+
+# Historical copies and local publication staging
+/eski_araclar/
+/yedek_*/
+/sinirsiz_yama.py
+/tasima_yap.py
+/.public-release/
